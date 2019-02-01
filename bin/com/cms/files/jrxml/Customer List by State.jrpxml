@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="Customer List by State" pageWidth="612" pageHeight="792" topMargin="20" leftMargin="20" bottomMargin="20" rightMargin="20" locale="en_US" timezone="Asia/Shanghai">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="1"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="2"/>
+	<origin band="background"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<origin band="summary"/>
+	<page>
+		<text textHeight="30.1875" lineSpacingFactor="1.2578125" leadingOffset="-5.2734375">
+			<reportElement uuid="3bc301a6-60ac-438c-94ba-93a82980cd2b" x="118" y="52" width="300" height="44" origin="1" srcId="1" printId="1"/>
+			<font size="24" isBold="true"/>
+			<textContent><![CDATA[Customer List by State of ]]></textContent>
+		</text>
+		<text textHeight="30.1875" lineSpacingFactor="1.2578125" leadingOffset="-5.2734375">
+			<reportElement uuid="ce949794-d2c9-45a2-9ddb-26a27a2cfb58" x="418" y="52" width="95" height="44" origin="1" srcId="2" printId="1"/>
+			<font size="24" isBold="true"/>
+			<textContent><![CDATA[NY]]></textContent>
+		</text>
+		<text textHeight="30.1875" lineSpacingFactor="1.2578125" leadingOffset="-5.2734375">
+			<reportElement uuid="1a13e38a-9432-4c26-9c3c-2ae12b6c10a7" x="228" y="20" width="142" height="35" origin="1" srcId="3" printId="1"/>
+			<font size="24" isBold="true"/>
+			<textContent><![CDATA[Mobility Inc.]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="57712fb7-10ff-40ab-8658-b0458553c229" x="20" y="131" width="87" height="20" origin="3" srcId="4" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Customer Num]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="1478fe6b-ac16-4a1b-b9ea-f558386f4e28" x="118" y="131" width="99" height="20" origin="3" srcId="5" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Customer Name]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="b79dc299-9d81-48e3-af1d-5ac1240a3eb9" x="245" y="131" width="65" height="20" origin="3" srcId="6" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Address]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="0862f133-747b-4541-99ab-42b86f9fa226" x="521" y="131" width="71" height="20" origin="3" srcId="7" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Payterms]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="155" width="110" height="20" origin="4" srcId="8" printId="1"/>
+			<textContent><![CDATA[SMP Corp.]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="155" width="257" height="20" origin="4" srcId="9" printId="1"/>
+			<textContent><![CDATA[3718 Northern Long Island NY 12528]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="155" width="71" height="20" origin="4" srcId="10" printId="1"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="155" width="87" height="20" origin="4" srcId="11" printId="1"/>
+			<textContent><![CDATA[C0010]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="175" width="110" height="20" origin="4" srcId="8" printId="2"/>
+			<textContent><![CDATA[Yello Hammer LLC]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="175" width="257" height="20" origin="4" srcId="9" printId="2"/>
+			<textContent><![CDATA[111 W 28th St, New York, NY 10001]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="175" width="71" height="20" origin="4" srcId="10" printId="2"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="175" width="87" height="20" origin="4" srcId="11" printId="2"/>
+			<textContent><![CDATA[C0031]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="195" width="110" height="20" origin="4" srcId="8" printId="3"/>
+			<textContent><![CDATA[Conductor]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="195" width="257" height="20" origin="4" srcId="9" printId="3"/>
+			<textContent><![CDATA[2 Park Ave, New York, NY 10016]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="195" width="71" height="20" origin="4" srcId="10" printId="3"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="195" width="87" height="20" origin="4" srcId="11" printId="3"/>
+			<textContent><![CDATA[C0032]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="215" width="110" height="20" origin="4" srcId="8" printId="4"/>
+			<textContent><![CDATA[Quantum Networks]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="215" width="257" height="20" origin="4" srcId="9" printId="4"/>
+			<textContent><![CDATA[323 West 39th Street 11th Flr NY 10018]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="215" width="71" height="20" origin="4" srcId="10" printId="4"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="215" width="87" height="20" origin="4" srcId="11" printId="4"/>
+			<textContent><![CDATA[C0033]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="235" width="110" height="20" origin="4" srcId="8" printId="5"/>
+			<textContent><![CDATA[Refinery29]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="235" width="257" height="20" origin="4" srcId="9" printId="5"/>
+			<textContent><![CDATA[225 Broadway NY 10007]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="235" width="71" height="20" origin="4" srcId="10" printId="5"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="235" width="87" height="20" origin="4" srcId="11" printId="5"/>
+			<textContent><![CDATA[C0034]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="255" width="110" height="20" origin="4" srcId="8" printId="6"/>
+			<textContent><![CDATA[Gravity Media]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="255" width="257" height="20" origin="4" srcId="9" printId="6"/>
+			<textContent><![CDATA[104 W 27th St #11d NY 10001]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="255" width="71" height="20" origin="4" srcId="10" printId="6"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="255" width="87" height="20" origin="4" srcId="11" printId="6"/>
+			<textContent><![CDATA[C0035]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="275" width="110" height="20" origin="4" srcId="8" printId="7"/>
+			<textContent><![CDATA[Regal wings]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="275" width="257" height="20" origin="4" srcId="9" printId="7"/>
+			<textContent><![CDATA[244 Fifth Avenue, Suite 200 New York, NY 10001]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="275" width="71" height="20" origin="4" srcId="10" printId="7"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="275" width="87" height="20" origin="4" srcId="11" printId="7"/>
+			<textContent><![CDATA[C0036]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="295" width="110" height="20" origin="4" srcId="8" printId="8"/>
+			<textContent><![CDATA[33Across]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="295" width="257" height="20" origin="4" srcId="9" printId="8"/>
+			<textContent><![CDATA[229 W 28th St, New York, NY 10001]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="295" width="71" height="20" origin="4" srcId="10" printId="8"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="295" width="87" height="20" origin="4" srcId="11" printId="8"/>
+			<textContent><![CDATA[C0037]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="315" width="110" height="20" origin="4" srcId="8" printId="9"/>
+			<textContent><![CDATA[RCS Capital]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="315" width="257" height="20" origin="4" srcId="9" printId="9"/>
+			<textContent><![CDATA[405 Park Avenue New York, NY 1002]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="315" width="71" height="20" origin="4" srcId="10" printId="9"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="315" width="87" height="20" origin="4" srcId="11" printId="9"/>
+			<textContent><![CDATA[C0038]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="335" width="110" height="20" origin="4" srcId="8" printId="10"/>
+			<textContent><![CDATA[OnDeck]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="335" width="257" height="20" origin="4" srcId="9" printId="10"/>
+			<textContent><![CDATA[1400 Broadway, 25th Floor, New York, NY 10001]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="335" width="71" height="20" origin="4" srcId="10" printId="10"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="335" width="87" height="20" origin="4" srcId="11" printId="10"/>
+			<textContent><![CDATA[C0039]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="355" width="110" height="20" origin="4" srcId="8" printId="11"/>
+			<textContent><![CDATA[Optimatic Media, Inc]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="355" width="257" height="20" origin="4" srcId="9" printId="11"/>
+			<textContent><![CDATA[54 West 40th St., 7th Floor, New York, NY 10018]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="355" width="71" height="20" origin="4" srcId="10" printId="11"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="355" width="87" height="20" origin="4" srcId="11" printId="11"/>
+			<textContent><![CDATA[C0040]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="375" width="110" height="20" origin="4" srcId="8" printId="12"/>
+			<textContent><![CDATA[James Underwood]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="375" width="257" height="20" origin="4" srcId="9" printId="12"/>
+			<textContent><![CDATA[450 West 33rd Street New York, NY 10018]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="375" width="71" height="20" origin="4" srcId="10" printId="12"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="375" width="87" height="20" origin="4" srcId="11" printId="12"/>
+			<textContent><![CDATA[C0041]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="395" width="110" height="20" origin="4" srcId="8" printId="13"/>
+			<textContent><![CDATA[Charles Silverstone]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="395" width="257" height="20" origin="4" srcId="9" printId="13"/>
+			<textContent><![CDATA[1335 Ave of the Americas, New York, NY 10019]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="395" width="71" height="20" origin="4" srcId="10" printId="13"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="395" width="87" height="20" origin="4" srcId="11" printId="13"/>
+			<textContent><![CDATA[C0042]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="415" width="110" height="20" origin="4" srcId="8" printId="14"/>
+			<textContent><![CDATA[Nea Sanchez]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="415" width="257" height="20" origin="4" srcId="9" printId="14"/>
+			<textContent><![CDATA[371 7th Ave, New York, NY 10001]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="415" width="71" height="20" origin="4" srcId="10" printId="14"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="415" width="87" height="20" origin="4" srcId="11" printId="14"/>
+			<textContent><![CDATA[C0043]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="435" width="110" height="20" origin="4" srcId="8" printId="15"/>
+			<textContent><![CDATA[Tracy Lambert]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="435" width="257" height="20" origin="4" srcId="9" printId="15"/>
+			<textContent><![CDATA[234 W 42nd St, New York, NY 10036]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="435" width="71" height="20" origin="4" srcId="10" printId="15"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="435" width="87" height="20" origin="4" srcId="11" printId="15"/>
+			<textContent><![CDATA[C0044]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="455" width="110" height="20" origin="4" srcId="8" printId="16"/>
+			<textContent><![CDATA[Peter Charlestone]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="455" width="257" height="20" origin="4" srcId="9" printId="16"/>
+			<textContent><![CDATA[342 W 40th St, New York, NY 10018]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="455" width="71" height="20" origin="4" srcId="10" printId="16"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="455" width="87" height="20" origin="4" srcId="11" printId="16"/>
+			<textContent><![CDATA[C0045]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="475" width="110" height="20" origin="4" srcId="8" printId="17"/>
+			<textContent><![CDATA[Manhasset School]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="475" width="257" height="20" origin="4" srcId="9" printId="17"/>
+			<textContent><![CDATA[200 Memorial Place Manhasset, NY 11030]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="475" width="71" height="20" origin="4" srcId="10" printId="17"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="475" width="87" height="20" origin="4" srcId="11" printId="17"/>
+			<textContent><![CDATA[C0056]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="495" width="110" height="20" origin="4" srcId="8" printId="18"/>
+			<textContent><![CDATA[Pittsford High Sch]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="495" width="257" height="20" origin="4" srcId="9" printId="18"/>
+			<textContent><![CDATA[55 Sutherland St Pittsford, NY 14534]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="495" width="71" height="20" origin="4" srcId="10" printId="18"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="495" width="87" height="20" origin="4" srcId="11" printId="18"/>
+			<textContent><![CDATA[C0057]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="515" width="110" height="20" origin="4" srcId="8" printId="19"/>
+			<textContent><![CDATA[Jericho High School]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="515" width="257" height="20" origin="4" srcId="9" printId="19"/>
+			<textContent><![CDATA[99 Cedar Swamp Rd, Jericho, NY 11753]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="515" width="71" height="20" origin="4" srcId="10" printId="19"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="515" width="87" height="20" origin="4" srcId="11" printId="19"/>
+			<textContent><![CDATA[C0058]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="535" width="110" height="20" origin="4" srcId="8" printId="20"/>
+			<textContent><![CDATA[Stuyvesant High]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="535" width="257" height="20" origin="4" srcId="9" printId="20"/>
+			<textContent><![CDATA[345 Chambers St, New York, NY 10282]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="535" width="71" height="20" origin="4" srcId="10" printId="20"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="535" width="87" height="20" origin="4" srcId="11" printId="20"/>
+			<textContent><![CDATA[C0059]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="555" width="110" height="20" origin="4" srcId="8" printId="21"/>
+			<textContent><![CDATA[Rye High School]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="555" width="257" height="20" origin="4" srcId="9" printId="21"/>
+			<textContent><![CDATA[Parsons St, Rye, NY 10580]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="555" width="71" height="20" origin="4" srcId="10" printId="21"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="555" width="87" height="20" origin="4" srcId="11" printId="21"/>
+			<textContent><![CDATA[C0060]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="575" width="110" height="20" origin="4" srcId="8" printId="22"/>
+			<textContent><![CDATA[Brooklyn High]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="575" width="257" height="20" origin="4" srcId="9" printId="22"/>
+			<textContent><![CDATA[29 Ft Greene Place, Brooklyn, NY 11217]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="575" width="71" height="20" origin="4" srcId="10" printId="22"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="575" width="87" height="20" origin="4" srcId="11" printId="22"/>
+			<textContent><![CDATA[C0061]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="595" width="110" height="20" origin="4" srcId="8" printId="23"/>
+			<textContent><![CDATA[Brooklyn Latin Sch]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="595" width="257" height="20" origin="4" srcId="9" printId="23"/>
+			<textContent><![CDATA[325 Bushwick Ave, Brooklyn, NY 11206]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="595" width="71" height="20" origin="4" srcId="10" printId="23"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="595" width="87" height="20" origin="4" srcId="11" printId="23"/>
+			<textContent><![CDATA[C0062]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="615" width="110" height="20" origin="4" srcId="8" printId="24"/>
+			<textContent><![CDATA[Bronx Science High]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="615" width="257" height="20" origin="4" srcId="9" printId="24"/>
+			<textContent><![CDATA[75 West 205Th St Bronx, NY 10468]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="615" width="71" height="20" origin="4" srcId="10" printId="24"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="615" width="87" height="20" origin="4" srcId="11" printId="24"/>
+			<textContent><![CDATA[C0063]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="635" width="110" height="20" origin="4" srcId="8" printId="25"/>
+			<textContent><![CDATA[Staten Island High]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="635" width="257" height="20" origin="4" srcId="9" printId="25"/>
+			<textContent><![CDATA[485 Clawson St, Staten Island, NY 10306]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="635" width="71" height="20" origin="4" srcId="10" printId="25"/>
+			<textContent><![CDATA[30D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="635" width="87" height="20" origin="4" srcId="11" printId="25"/>
+			<textContent><![CDATA[C0064]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="655" width="110" height="20" origin="4" srcId="8" printId="26"/>
+			<textContent><![CDATA[Yonkers Middle High]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="655" width="257" height="20" origin="4" srcId="9" printId="26"/>
+			<textContent><![CDATA[150 Rockland Ave, Yonkers, NY 10705]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="655" width="71" height="20" origin="4" srcId="10" printId="26"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="655" width="87" height="20" origin="4" srcId="11" printId="26"/>
+			<textContent><![CDATA[C0065]]></textContent>
+		</text>
+		<text textAlignment="Right" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="d64daa0e-6c4d-4770-a692-2d2a762a60b1" x="20" y="738" width="62" height="20" origin="6" srcId="12" printId="1"/>
+			<textContent><![CDATA[Page 1 of]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="ecd2590c-cdbb-4d6d-a93e-dbe7ec21353a" x="82" y="738" width="40" height="20" origin="6" srcId="13" printId="1"/>
+			<textContent><![CDATA[ 2]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="0391e704-dbcb-429c-9e8d-c5fef8d23a16" x="433" y="738" width="52" height="20" origin="6" srcId="14" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Run date:]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="EEEEE dd MMMMM yyyy">
+			<reportElement uuid="99e6e9b6-e75b-45f3-9596-e7c8971171d8" x="485" y="738" width="107" height="20" origin="6" srcId="15" printId="1"/>
+			<textContent><![CDATA[Monday 29 February ]]></textContent>
+		</text>
+	</page>
+	<page>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="57712fb7-10ff-40ab-8658-b0458553c229" x="20" y="55" width="87" height="20" origin="3" srcId="4" printId="2"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Customer Num]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="1478fe6b-ac16-4a1b-b9ea-f558386f4e28" x="118" y="55" width="99" height="20" origin="3" srcId="5" printId="2"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Customer Name]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="b79dc299-9d81-48e3-af1d-5ac1240a3eb9" x="245" y="55" width="65" height="20" origin="3" srcId="6" printId="2"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Address]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="0862f133-747b-4541-99ab-42b86f9fa226" x="521" y="55" width="71" height="20" origin="3" srcId="7" printId="2"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Payterms]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="79" width="110" height="20" origin="4" srcId="8" printId="27"/>
+			<textContent><![CDATA[Chuck Jones]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="79" width="257" height="20" origin="4" srcId="9" printId="27"/>
+			<textContent><![CDATA[163 W 125th St New York, NY 10027]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="79" width="71" height="20" origin="4" srcId="10" printId="27"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="79" width="87" height="20" origin="4" srcId="11" printId="27"/>
+			<textContent><![CDATA[C0071]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="99" width="110" height="20" origin="4" srcId="8" printId="28"/>
+			<textContent><![CDATA[Menchu Palmores]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="99" width="257" height="20" origin="4" srcId="9" printId="28"/>
+			<textContent><![CDATA[600 College Ave Montour Falls, NY 14865]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="99" width="71" height="20" origin="4" srcId="10" printId="28"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="99" width="87" height="20" origin="4" srcId="11" printId="28"/>
+			<textContent><![CDATA[C0072]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="119" width="110" height="20" origin="4" srcId="8" printId="29"/>
+			<textContent><![CDATA[Princess Ann White]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="119" width="257" height="20" origin="4" srcId="9" printId="29"/>
+			<textContent><![CDATA[109 S Union St #411 Rochester, NY 14607]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="119" width="71" height="20" origin="4" srcId="10" printId="29"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="119" width="87" height="20" origin="4" srcId="11" printId="29"/>
+			<textContent><![CDATA[C0073]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="139" width="110" height="20" origin="4" srcId="8" printId="30"/>
+			<textContent><![CDATA[Florence Black]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="139" width="257" height="20" origin="4" srcId="9" printId="30"/>
+			<textContent><![CDATA[450 S Salina St Syracuse, NY 13202]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="139" width="71" height="20" origin="4" srcId="10" printId="30"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="139" width="87" height="20" origin="4" srcId="11" printId="30"/>
+			<textContent><![CDATA[C0074]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="159" width="110" height="20" origin="4" srcId="8" printId="31"/>
+			<textContent><![CDATA[Jeremy Irons]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="159" width="257" height="20" origin="4" srcId="9" printId="31"/>
+			<textContent><![CDATA[3357 US Highway 9w Highland, NY 12528]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="159" width="71" height="20" origin="4" srcId="10" printId="31"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="159" width="87" height="20" origin="4" srcId="11" printId="31"/>
+			<textContent><![CDATA[C0075]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="179" width="110" height="20" origin="4" srcId="8" printId="32"/>
+			<textContent><![CDATA[Braddy Banks]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="179" width="257" height="20" origin="4" srcId="9" printId="32"/>
+			<textContent><![CDATA[1424 Fulton St Brooklyn, NY 11216]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="179" width="71" height="20" origin="4" srcId="10" printId="32"/>
+			<textContent><![CDATA[COD]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="179" width="87" height="20" origin="4" srcId="11" printId="32"/>
+			<textContent><![CDATA[C0076]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="199" width="110" height="20" origin="4" srcId="8" printId="33"/>
+			<textContent><![CDATA[Office NY Tech Serv]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="199" width="257" height="20" origin="4" srcId="9" printId="33"/>
+			<textContent><![CDATA[State Capitol Empire State Plaza NY 10027]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="199" width="71" height="20" origin="4" srcId="10" printId="33"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="199" width="87" height="20" origin="4" srcId="11" printId="33"/>
+			<textContent><![CDATA[C0077]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="219" width="110" height="20" origin="4" srcId="8" printId="34"/>
+			<textContent><![CDATA[FDA New York]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="219" width="257" height="20" origin="4" srcId="9" printId="34"/>
+			<textContent><![CDATA[158-15 Liberty Ave., Jamaica, NY 12528]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="219" width="71" height="20" origin="4" srcId="10" printId="34"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="219" width="87" height="20" origin="4" srcId="11" printId="34"/>
+			<textContent><![CDATA[C0078]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eaaef90a-738a-4deb-a730-01273f4471e3" x="118" y="239" width="110" height="20" origin="4" srcId="8" printId="35"/>
+			<textContent><![CDATA[Social Sec Admn NY]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="425905ef-ca17-44c8-9b7a-1c820f884e50" x="245" y="239" width="257" height="20" origin="4" srcId="9" printId="35"/>
+			<textContent><![CDATA[123 William St, New York, NY 10038]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754" x="521" y="239" width="71" height="20" origin="4" srcId="10" printId="35"/>
+			<textContent><![CDATA[45D]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d" x="20" y="239" width="87" height="20" origin="4" srcId="11" printId="35"/>
+			<textContent><![CDATA[C0079]]></textContent>
+		</text>
+		<text textAlignment="Right" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="d64daa0e-6c4d-4770-a692-2d2a762a60b1" x="20" y="738" width="62" height="20" origin="6" srcId="12" printId="2"/>
+			<textContent><![CDATA[Page 2 of]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="ecd2590c-cdbb-4d6d-a93e-dbe7ec21353a" x="82" y="738" width="40" height="20" origin="6" srcId="13" printId="2"/>
+			<textContent><![CDATA[ 2]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="0391e704-dbcb-429c-9e8d-c5fef8d23a16" x="433" y="738" width="52" height="20" origin="6" srcId="14" printId="2"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Run date:]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="EEEEE dd MMMMM yyyy">
+			<reportElement uuid="99e6e9b6-e75b-45f3-9596-e7c8971171d8" x="485" y="738" width="107" height="20" origin="6" srcId="15" printId="2"/>
+			<textContent><![CDATA[Monday 29 February ]]></textContent>
+		</text>
+	</page>
+</jasperPrint>

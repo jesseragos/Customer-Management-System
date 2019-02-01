@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Customer List by State" language="groovy" pageWidth="612" pageHeight="792" columnWidth="556" leftMargin="36" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7c51f376-0a60-4dd8-b067-3d92d689b5ff">
+	<property name="ireport.zoom" value="1.1"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="stateParam" class="java.lang.String">
+		<defaultValueExpression><![CDATA[NY]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     CUSTOMER."CUSTNO" AS CUSTOMER_CUSTNO,
+     CUSTOMER."CUSTNAME" AS CUSTOMER_CUSTNAME,
+     CUSTOMER."ADDRESS" AS CUSTOMER_ADDRESS,
+     CUSTOMER."PAYTERMS" AS CUSTOMER_PAYTERMS
+FROM
+     "STORE"."CUSTOMER" CUSTOMER
+WHERE
+	CUSTOMER."ADDRESS" LIKE '%$P!{stateParam}%'
+AND
+	CUSTOMER."STAMP" NOT LIKE '%DELETED%']]>
+	</queryString>
+	<field name="CUSTOMER_CUSTNO" class="java.lang.String"/>
+	<field name="CUSTOMER_CUSTNAME" class="java.lang.String"/>
+	<field name="CUSTOMER_ADDRESS" class="java.lang.String"/>
+	<field name="CUSTOMER_PAYTERMS" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="105" splitType="Stretch">
+			<staticText>
+				<reportElement x="97" y="68" width="300" height="34" uuid="3bc301a6-60ac-438c-94ba-93a82980cd2b"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Customer List by State of ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="397" y="68" width="95" height="34" uuid="ce949794-d2c9-45a2-9ddb-26a27a2cfb58"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{stateParam}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="185" y="0" width="194" height="68" uuid="168c9f2a-5679-4e70-b474-d6d4c18e10cb"/>
+				<imageExpression><![CDATA["C:\\Users\\hpp\\Documents\\NEU files\\2BSCS_2Sem\\OOP\\CASE STUDY tools\\miscl\\mobility_banner_cms 1.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="24" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="87" height="20" uuid="57712fb7-10ff-40ab-8658-b0458553c229"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Customer Num]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="0" width="99" height="20" uuid="1478fe6b-ac16-4a1b-b9ea-f558386f4e28"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Customer Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="225" y="0" width="65" height="20" uuid="b79dc299-9d81-48e3-af1d-5ac1240a3eb9"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="485" y="0" width="71" height="20" uuid="0862f133-747b-4541-99ab-42b86f9fa226"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Payterms]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<textField>
+				<reportElement x="98" y="0" width="110" height="16" uuid="eaaef90a-738a-4deb-a730-01273f4471e3"/>
+				<textFieldExpression><![CDATA[$F{CUSTOMER_CUSTNAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="225" y="0" width="240" height="16" uuid="425905ef-ca17-44c8-9b7a-1c820f884e50"/>
+				<textFieldExpression><![CDATA[$F{CUSTOMER_ADDRESS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="485" y="0" width="71" height="16" uuid="e72e103c-140f-4187-9b7c-ce4b01e9f754"/>
+				<textFieldExpression><![CDATA[$F{CUSTOMER_PAYTERMS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="87" height="16" uuid="a1d18ec7-83a1-430d-9488-0c39886aa07d"/>
+				<textFieldExpression><![CDATA[$F{CUSTOMER_CUSTNO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="41" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="10" width="62" height="20" uuid="d64daa0e-6c4d-4770-a692-2d2a762a60b1"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="62" y="10" width="40" height="20" uuid="ecd2590c-cdbb-4d6d-a93e-dbe7ec21353a"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="397" y="10" width="52" height="20" uuid="0391e704-dbcb-429c-9e8d-c5fef8d23a16"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Run date:]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="449" y="10" width="107" height="20" uuid="99e6e9b6-e75b-45f3-9596-e7c8971171d8"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
