@@ -1,5 +1,5 @@
 # Customer Management System
-A Java CRUD system that mocks a customer management system and generates report from database records.
+A Java CRUD system that for customer management and generates report from database records.
 
 Developed for my case study in college.
 
